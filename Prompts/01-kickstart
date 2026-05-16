@@ -1,0 +1,417 @@
+_(Kitchen Website – Design System + Layout Generation)_
+
+---
+
+## Prompt
+
+You are a **senior product designer, UX engineer, and frontend architect**.
+
+Your task is to **analyze an existing CodePen sample and evolve it into a modern, production-grade Catering company website**.
+
+Do not simply replicate the sample — **derive a design system and improve the UX, layout, and visual hierarchy significantly**.
+
+Before generating code, think step by step and first produce the design system and layout architecture.
+
+---
+
+# Context
+
+I have a **CodePen prototype** that demonstrates the basic UI idea.
+
+Your job is to:
+
+1. Analyze the sample structure
+2. Extract visual patterns
+3. Build a **scalable design system**
+4. Improve layout and UX
+5. Produce a **modern, premium Catering brand website**
+
+Assume this is for a **luxury Catering/cooking brand**.
+
+The website should feel comparable to **premium interior design websites**.
+
+---
+
+# Goals
+
+The final result should:
+
+- Look **premium and modern**
+- Be **minimal but visually rich**
+
+Design inspiration should feel like:
+
+- Apple-level minimalism
+- Luxury interior design brands
+- Modern architecture websites
+
+---
+
+# Tasks
+
+## 1 Analyze the CodePen sample
+
+From the sample:
+
+- Extract layout patterns
+- Identify reusable components
+- Detect spacing rhythm
+- Identify color palette and typography
+
+Then **formalize these into a design system**.
+
+---
+
+# 2 Create a Design System
+
+Generate a complete **design system specification**.
+
+Include:
+
+### Colors
+
+Define a premium palette:
+
+Example categories:
+
+Primary
+Secondary
+Accent
+Neutral background
+Surface colors
+Text colors
+
+Provide hex values.
+
+---
+
+### Typography
+
+Define:
+
+- Heading font
+- Body font
+- Accent font
+
+Example style:
+
+```
+H1: Hero headline
+H2: Section heading
+H3: Subheading
+Body
+Caption
+Button text
+```
+
+Define:
+
+- font sizes
+- line height
+- font weight
+- responsive scale
+
+---
+
+### Spacing System
+
+Define spacing tokens.
+
+Example:
+
+```
+xs: 4px
+sm: 8px
+md: 16px
+lg: 24px
+xl: 32px
+2xl: 48px
+3xl: 64px
+```
+
+Ensure consistent layout rhythm.
+
+---
+
+### Components
+
+Define reusable components:
+
+Navbar
+Hero section
+Testimonial cards
+CTA sections
+Service blocks
+Footer
+Booking form
+Image grids
+
+Each component must be **clean and reusable**.
+
+---
+
+# 3 Improve Layout Architecture
+
+Create a **modern landing page layout**.
+
+Required sections:
+
+### 1 Hero Section
+
+Full-screen hero with:
+
+- bold headline
+- CTA button
+
+CTA:
+
+Book Free Consultation
+
+---
+
+### 2 Brand Introduction
+
+Explain:
+
+- craftsmanship
+- materials
+- design philosophy
+
+---
+
+### 3 Food/Menu Gallery
+
+Include:
+
+- hover animations
+- subtle shadows
+
+---
+
+### 4 Services Section
+
+Show services like:
+
+- installation
+- customization
+- renovation
+
+Use icon cards.
+
+---
+
+### 5 Process Section
+
+Explain steps:
+
+```
+Consultation
+Design
+Material Selection
+Installation
+Delivery
+```
+
+Use timeline or step UI.
+
+---
+
+### 6 Testimonials
+
+Customer reviews.
+
+Card based layout.
+
+---
+
+### 7 Call to Action
+
+Strong CTA section.
+
+Button:
+
+Book Consultation
+
+---
+
+### 8 Contact Section
+
+Include:
+
+- phone
+- email
+- WhatsApp
+- contact form
+
+---
+
+### 9 Footer
+
+Include:
+
+- quick links
+- social links
+- location
+- copyright
+
+---
+
+# 4 UX Improvements
+
+Improve the sample with:
+
+- better visual hierarchy
+- consistent spacing
+- large imagery
+- smooth hover states
+- subtle animations
+
+Use modern interaction patterns.
+
+---
+
+# 5 Visual Style
+
+The design must feel:
+
+Luxury
+Modern
+Architectural
+Minimal
+
+Avoid:
+
+- clutter
+- bright colors
+- excessive gradients
+
+Prefer:
+
+- neutral palettes
+- large photography
+- whitespace
+
+---
+
+# 6 Animations
+
+Add subtle animations:
+
+Hero fade-in
+Card hover lift
+Image zoom on hover
+Smooth scroll
+
+Animations should be **subtle and premium**.
+
+---
+
+# 7 Responsiveness
+
+Design for:
+
+Desktop
+Tablet
+Mobile
+
+Ensure:
+
+- navigation collapses to hamburger
+- gallery becomes stacked grid
+- buttons remain large enough for touch
+
+---
+
+# 8 Code Requirements
+
+Generate production-quality code.
+
+Requirements:
+
+- clean semantic HTML
+- modular CSS or Tailwind
+- reusable components
+- accessible markup
+
+Avoid:
+
+- inline styles
+- duplicated code
+
+---
+
+# 9 Performance
+
+Ensure:
+
+- lazy loaded images
+- optimized image sizes
+- minimal JS
+
+Target:
+
+- Lighthouse score > 90
+
+---
+
+# 10 Deliverables
+
+Produce:
+
+1. Improved page structure
+2. Design system tokens
+3. Component architecture
+4. Refactored code
+5. Improved layout based on sample
+6. Suggestions for future pages
+
+---
+
+# 11 Icon System (Prefer SVG Icons)
+
+All icons used in the website must be SVG-based, not bitmap images or icon fonts.
+
+Requirements
+Prefer inline SVG icons or a reusable SVG icon component system
+Icons must scale cleanly across devices
+Icons should inherit color from CSS (currentColor) when possible
+Ensure icons remain sharp on high-resolution displays
+Avoid PNG/JPG icons
+Icon Style
+
+Icons should follow a consistent visual style:
+
+minimalist
+thin stroke
+geometric
+modern
+
+---
+
+# Output Format
+
+Return the output in this structure:
+
+1. Design System
+2. Layout Architecture
+3. Component Breakdown
+4. Improved UI Concepts
+5. Code Implementation
+6. Suggested Enhancements
+
+---
+
+# Important
+
+Do NOT just copy the CodePen.
+
+Instead:
+
+- analyze
+- generalize
+- improve
+- modernize
+
+The output should feel like a **professional interior design brand website with modern touch**.
+
+---

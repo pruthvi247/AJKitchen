@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AJ Kitchen — Premium catering service for weddings, corporate events, and special occasions. Fresh, delicious food crafted with passion.">
+  <title>AJ Kitchen — Premium Catering Services</title>
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Typography: Poppins (clean, modern) + Playfair Display (elegant headings) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ════════════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════════ -->
+  <header class="site-header" id="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="AJ Kitchen Home">
+        <!-- SVG Logo Mark - Chef Hat Icon -->
+        <svg class="logo-icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M8 14C8 10.686 10.686 8 14 8C14 5.791 15.791 4 18 4C20.209 4 22 5.791 22 8C25.314 8 28 10.686 28 14V16H8V14Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="currentColor" opacity="0.15"/>
+          <path d="M8 16H28V28C28 29.105 27.105 30 26 30H10C8.895 30 8 29.105 8 28V16Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="12" y1="20" x2="12" y2="26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="18" y1="20" x2="18" y2="26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="24" y1="20" x2="24" y2="26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <span class="logo-text">AJ <span class="logo-accent">Kitchen</span></span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" role="navigation" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#process" class="nav-link">How It Works</a></li>
+          <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contact" class="btn btn-primary header-cta">Book Catering</a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ════════════════════════════════════════════
+         1. HERO SECTION
+    ════════════════════════════════════════════ -->
+    <section class="hero" id="hero">
+      <div class="hero-text">
+        <span class="hero-tagline">Welcome to</span>
+        <h1 class="hero-title">Delicious Catering<br>For Every Event!</h1>
+        <p class="hero-subtitle">Experience exceptional culinary artistry with our premium catering services. From intimate gatherings to grand celebrations, we craft memorable dining experiences with fresh, flavorful ingredients and beautiful presentation.</p>
+        <a href="#contact" class="btn btn-primary">Book Your Event</a>
+      </div>
+      <div class="hero-img">
+        <img src="https://i.postimg.cc/gJBk5PMz/salad.png" alt="Fresh gourmet food presentation">
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         2. ABOUT / BRAND INTRODUCTION
+    ════════════════════════════════════════════ -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="split-layout reveal">
+          <div class="split-media">
+            <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=800&q=80&auto=format&fit=crop"
+                 alt="Professional chef preparing gourmet dishes in kitchen"
+                 loading="lazy"
+                 class="about-img">
+            <div class="about-accent-box">
+              <span class="accent-number">500+</span>
+              <span class="accent-label">Events<br>Catered</span>
+            </div>
+          </div>
+          <div class="split-content">
+            <span class="section-label">About AJ Kitchen</span>
+            <h2 class="section-title">Passion for Food,<br>Perfection in Service</h2>
+            <p class="section-text">At AJ Kitchen, we believe every event deserves exceptional food. Our team of experienced chefs creates culinary masterpieces using fresh, locally-sourced ingredients, bringing restaurant-quality dining to your celebrations.</p>
+            <div class="about-features">
+              <div class="about-feature">
+                <div class="feature-icon">
+                  <!-- SVG: Star/Quality -->
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Fresh Ingredients</h4>
+                  <p>We source premium, farm-fresh ingredients daily to ensure the highest quality in every dish.</p>
+                </div>
+              </div>
+              <div class="about-feature">
+                <div class="feature-icon">
+                  <!-- SVG: Chef Hat -->
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M6 13.87A4 4 0 017.41 6a5.11 5.11 0 011.05-1.54 5 5 0 017.08 0A5.11 5.11 0 0116.59 6 4 4 0 0118 13.87V21H6z"/>
+                    <line x1="6" y1="17" x2="18" y2="17"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Expert Chefs</h4>
+                  <p>Our culinary team brings years of fine-dining experience to craft memorable meals for your guests.</p>
+                </div>
+              </div>
+              <div class="about-feature">
+                <div class="feature-icon">
+                  <!-- SVG: Heart/Care -->
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Personalized Service</h4>
+                  <p>We work closely with you to customize menus and service to match your event perfectly.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         3. MENU / FOOD GALLERY
+    ════════════════════════════════════════════ -->
+    <section class="gallery" id="menu">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Our Menu</span>
+          <h2 class="section-title">Culinary Excellence</h2>
+          <p class="section-subtitle">Explore our diverse menu options, from appetizers to desserts, all crafted with premium ingredients.</p>
+        </div>
+
+        <div class="gallery-filter reveal" role="tablist" aria-label="Menu filter">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="filter-btn" data-filter="appetizers" role="tab" aria-selected="false">Appetizers</button>
+          <button class="filter-btn" data-filter="mains" role="tab" aria-selected="false">Main Course</button>
+          <button class="filter-btn" data-filter="desserts" role="tab" aria-selected="false">Desserts</button>
+          <button class="filter-btn" data-filter="beverages" role="tab" aria-selected="false">Beverages</button>
+        </div>
+
+        <div class="gallery-grid reveal">
+          <article class="gallery-card" data-category="appetizers">
+            <div class="gallery-card-img">
+              <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600&q=80&auto=format&fit=crop"
+                   alt="Elegant appetizer platter with fresh garnishes"
+                   loading="lazy">
+              <div class="gallery-card-overlay">
+                <span class="gallery-card-category">Appetizers</span>
+                <h3 class="gallery-card-title">Gourmet Starters</h3>
+                <p>Fresh bruschetta, stuffed mushrooms, and artisan cheeses.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="gallery-card gallery-card--tall" data-category="mains">
+            <div class="gallery-card-img">
+              <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80&auto=format&fit=crop"
+                   alt="Beautifully plated main course with garnish"
+                   loading="lazy">
+              <div class="gallery-card-overlay">
+                <span class="gallery-card-category">Main Course</span>
+                <h3 class="gallery-card-title">Signature Entrées</h3>
+                <p>Grilled salmon, herb-roasted chicken, vegetarian delights.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="gallery-card" data-category="appetizers">
+            <div class="gallery-card-img">
+              <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80&auto=format&fit=crop"
+                   alt="Colorful salad bowl with fresh vegetables"
+                   loading="lazy">
+              <div class="gallery-card-overlay">
+                <span class="gallery-card-category">Appetizers</span>
+                <h3 class="gallery-card-title">Fresh Salads</h3>
+                <p>Farm-to-table greens with signature dressings.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="gallery-card" data-category="desserts">
+            <div class="gallery-card-img">
+              <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600&q=80&auto=format&fit=crop"
+                   alt="Delicious dessert with berries and cream"
+                   loading="lazy">
+              <div class="gallery-card-overlay">
+                <span class="gallery-card-category">Desserts</span>
+                <h3 class="gallery-card-title">Sweet Indulgence</h3>
+                <p>Artisan pastries, chocolate creations, seasonal fruits.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="gallery-card gallery-card--wide" data-category="mains">
+            <div class="gallery-card-img">
+              <img src="https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&q=80&auto=format&fit=crop"
+                   alt="Buffet spread with multiple dishes"
+                   loading="lazy">
+              <div class="gallery-card-overlay">
+                <span class="gallery-card-category">Main Course</span>
+                <h3 class="gallery-card-title">Buffet Selection</h3>
+                <p>A curated spread of international and local favorites.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="gallery-card" data-category="beverages">
+            <div class="gallery-card-img">
+              <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=600&q=80&auto=format&fit=crop"
+                   alt="Refreshing beverages and mocktails"
+                   loading="lazy">
+              <div class="gallery-card-overlay">
+                <span class="gallery-card-category">Beverages</span>
+                <h3 class="gallery-card-title">Signature Drinks</h3>
+                <p>Fresh juices, specialty mocktails, and premium coffees.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         4. SERVICES SECTION
+    ════════════════════════════════════════════ -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">What We Offer</span>
+          <h2 class="section-title">Catering Services</h2>
+          <p class="section-subtitle">Professional catering solutions tailored to your event's unique needs.</p>
+        </div>
+
+        <div class="services-grid reveal">
+          <article class="service-card">
+            <div class="service-icon">
+              <!-- SVG: Heart / Wedding -->
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+              </svg>
+            </div>
+            <h3>Wedding Catering</h3>
+            <p>Make your special day unforgettable with customized menus, elegant presentation, and impeccable service for your wedding celebration.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <!-- SVG: Briefcase / Corporate -->
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                <path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/>
+              </svg>
+            </div>
+            <h3>Corporate Events</h3>
+            <p>Professional catering for business meetings, conferences, and corporate gatherings with timely delivery and presentation.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <!-- SVG: Users / Party -->
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 00-3-3.87"/>
+                <path d="M16 3.13a4 4 0 010 7.75"/>
+              </svg>
+            </div>
+            <h3>Private Parties</h3>
+            <p>Birthdays, anniversaries, and family celebrations deserve exceptional food. We create memorable dining experiences.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <!-- SVG: Gift / Special Events -->
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 12 20 22 4 22 4 12"/>
+                <rect x="2" y="7" width="20" height="5"/>
+                <line x1="12" y1="22" x2="12" y2="7"/>
+                <path d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z"/>
+                <path d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/>
+              </svg>
+            </div>
+            <h3>Special Occasions</h3>
+            <p>Holiday parties, fundraisers, and community events. We handle all your special occasion catering needs.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         5. PROCESS SECTION
+    ════════════════════════════════════════════ -->
+    <section class="process" id="process">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">How It Works</span>
+          <h2 class="section-title">Simple Booking Process</h2>
+          <p class="section-subtitle">From initial inquiry to event day, we make catering seamless and stress-free.</p>
+        </div>
+
+        <div class="process-timeline reveal">
+          <div class="process-step">
+            <div class="step-number">01</div>
+            <div class="step-content">
+              <h3>Contact Us</h3>
+              <p>Reach out via phone, email, or our contact form with your event details and catering needs.</p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <div class="step-number">02</div>
+            <div class="step-content">
+              <h3>Menu Consultation</h3>
+              <p>We discuss your preferences, dietary requirements, and budget to create the perfect menu.</p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <div class="step-number">03</div>
+            <div class="step-content">
+              <h3>Customization</h3>
+              <p>Choose from our signature dishes or request custom creations tailored to your event theme.</p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <div class="step-number">04</div>
+            <div class="step-content">
+              <h3>Confirmation</h3>
+              <p>Review the final menu, confirm guest count, and finalize all event logistics and timing.</p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <div class="step-number">05</div>
+            <div class="step-content">
+              <h3>Event Day</h3>
+              <p>We arrive early, set up beautifully, serve with care, and clean up — you enjoy your event!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         6. TESTIMONIALS
+    ════════════════════════════════════════════ -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Client Stories</span>
+          <h2 class="section-title">What Our Clients Say</h2>
+        </div>
+
+        <div class="testimonials-grid reveal">
+          <article class="testimonial-card">
+            <div class="testimonial-quote" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" opacity="0.15">
+                <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
+                <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/>
+              </svg>
+            </div>
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <blockquote class="testimonial-text">
+              "AJ Kitchen catered our wedding and exceeded every expectation! The food was absolutely delicious, beautifully presented, and our guests couldn't stop raving about it. Their professionalism and attention to detail made our day stress-free."
+            </blockquote>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&q=80&auto=format&fit=crop"
+                   alt="Sarah Mitchell"
+                   loading="lazy"
+                   class="author-avatar">
+              <div>
+                <strong class="author-name">Sarah Mitchell</strong>
+                <span class="author-title">Wedding Client</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-quote" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" opacity="0.15">
+                <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
+                <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/>
+              </svg>
+            </div>
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <blockquote class="testimonial-text">
+              "We've used AJ Kitchen for multiple corporate events, and they never disappoint. The food arrives on time, looks impressive, and tastes amazing. Perfect partner for our business meetings and conferences."
+            </blockquote>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&q=80&auto=format&fit=crop"
+                   alt="David Chen"
+                   loading="lazy"
+                   class="author-avatar">
+              <div>
+                <strong class="author-name">David Chen</strong>
+                <span class="author-title">Corporate Client</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-quote" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" opacity="0.15">
+                <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
+                <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/>
+              </svg>
+            </div>
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <blockquote class="testimonial-text">
+              "The team at AJ Kitchen made my mother's 70th birthday celebration unforgettable. Every dish was phenomenal, and they accommodated all our dietary restrictions seamlessly. Highly recommended!"
+            </blockquote>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&q=80&auto=format&fit=crop"
+                   alt="Priya Kapoor"
+                   loading="lazy"
+                   class="author-avatar">
+              <div>
+                <strong class="author-name">Priya Kapoor</strong>
+                <span class="author-title">Private Party Client</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         7. CALL TO ACTION
+    ════════════════════════════════════════════ -->
+    <section class="cta">
+      <div class="cta-bg">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920&q=80&auto=format&fit=crop"
+             alt="Elegant table setting for catered event"
+             loading="lazy">
+        <div class="cta-overlay"></div>
+      </div>
+      <div class="container cta-content reveal">
+        <span class="section-label section-label--light">Ready to Book?</span>
+        <h2 class="cta-title">Let's Make Your Event<br>Unforgettable</h2>
+        <p class="cta-text">Get in touch today to discuss your catering needs and receive a customized quote for your special occasion.</p>
+        <a href="#contact" class="btn btn-primary btn-lg">Request a Quote</a>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         8. CONTACT SECTION
+    ════════════════════════════════════════════ -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Get In Touch</span>
+          <h2 class="section-title">Book Your Event Today</h2>
+        </div>
+
+        <div class="contact-grid reveal">
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>We'd love to hear about your upcoming event. Reach out to discuss menu options, availability, and pricing.</p>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <!-- SVG: Map Pin -->
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                    <circle cx="12" cy="10" r="3"/>
+                  </svg>
+                </div>
+                <div>
+                  <strong>Address</strong>
+                  <span>123 Culinary Lane, Food District<br>Your City, State 12345</span>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <!-- SVG: Phone -->
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                  </svg>
+                </div>
+                <div>
+                  <strong>Phone</strong>
+                  <span><a href="tel:+15551234567">+1 (555) 123-4567</a></span>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <!-- SVG: Mail -->
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                  </svg>
+                </div>
+                <div>
+                  <strong>Email</strong>
+                  <span><a href="mailto:hello@ajkitchen.com">hello@ajkitchen.com</a></span>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <!-- SVG: WhatsApp style message -->
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/>
+                  </svg>
+                </div>
+                <div>
+                  <strong>WhatsApp</strong>
+                  <span><a href="https://wa.me/15551234567" target="_blank" rel="noopener noreferrer">Chat with us</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper">
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                  <label for="phone" class="form-label">Phone</label>
+                  <input type="tel" id="phone" name="phone" class="form-input" placeholder="+1 (555) 123-4567" required autocomplete="tel">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="you@example.com" required autocomplete="email">
+              </div>
+              <div class="form-group">
+                <label for="event-type" class="form-label">Event Type</label>
+                <select id="event-type" name="event-type" class="form-input form-select">
+                  <option value="" disabled selected>Select event type</option>
+                  <option value="wedding">Wedding</option>
+                  <option value="corporate">Corporate Event</option>
+                  <option value="birthday">Birthday Party</option>
+                  <option value="anniversary">Anniversary</option>
+                  <option value="holiday">Holiday Party</option>
+                  <option value="other">Other Event</option>
+                </select>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="event-date" class="form-label">Event Date</label>
+                  <input type="date" id="event-date" name="event-date" class="form-input">
+                </div>
+                <div class="form-group">
+                  <label for="guest-count" class="form-label">Guest Count</label>
+                  <input type="number" id="guest-count" name="guest-count" class="form-input" placeholder="50" min="1">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" class="form-input form-textarea" placeholder="Tell us about your event and catering needs..." rows="4"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg btn-block">
+                Request Quote
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                  <polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ════════════════════════════════════════════
+       9. FOOTER
+  ════════════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo footer-logo" aria-label="AJ Kitchen Home">
+            <svg class="logo-icon" width="32" height="32" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M8 14C8 10.686 10.686 8 14 8C14 5.791 15.791 4 18 4C20.209 4 22 5.791 22 8C25.314 8 28 10.686 28 14V16H8V14Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="currentColor" opacity="0.15"/>
+              <path d="M8 16H28V28C28 29.105 27.105 30 26 30H10C8.895 30 8 29.105 8 28V16Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="12" y1="20" x2="12" y2="26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="18" y1="20" x2="18" y2="26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="24" y1="20" x2="24" y2="26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            <span class="logo-text">AJ <span class="logo-accent">Kitchen</span></span>
+          </a>
+          <p class="footer-tagline">Premium catering services for every occasion. Fresh ingredients, expert preparation, unforgettable taste.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5"/>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="Facebook" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="Twitter" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="YouTube" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29.94 29.94 0 001 12a29.94 29.94 0 00.46 5.58 2.78 2.78 0 001.94 2C5.12 20 12 20 12 20s6.88 0 8.6-.46a2.78 2.78 0 001.94-2A29.94 29.94 0 0023 12a29.94 29.94 0 00-.46-5.58z"/>
+                <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#menu">Our Menu</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">How It Works</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Wedding Catering</a></li>
+            <li><a href="#services">Corporate Events</a></li>
+            <li><a href="#services">Private Parties</a></li>
+            <li><a href="#services">Special Occasions</a></li>
+            <li><a href="#menu">Custom Menus</a></li>
+            <li><a href="#contact">Request Quote</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Contact</h4>
+          <ul>
+            <li>123 Culinary Lane</li>
+            <li>Food District, City 12345</li>
+            <li><a href="tel:+15551234567">+1 (555) 123-4567</a></li>
+            <li><a href="mailto:hello@ajkitchen.com">hello@ajkitchen.com</a></li>
+            <li>Mon – Sat: 9 AM – 6 PM</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 <strong>AJ Kitchen</strong>. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

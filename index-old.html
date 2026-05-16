@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AJ Kitchen — Premium catering service for weddings, corporate events, and special occasions. Fresh, delicious food crafted with passion.">
+  <title>AJ Kitchen — Premium Catering Services</title>
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Typography: Poppins (clean, modern) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ════════════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════════ -->
+  <header class="site-header" id="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="AJ Kitchen Home">
+        <!-- SVG Logo Mark - Chef Hat Icon -->
+        <svg class="logo-icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M8 14C8 10.686 10.686 8 14 8C14 5.791 15.791 4 18 4C20.209 4 22 5.791 22 8C25.314 8 28 10.686 28 14V16H8V14Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="currentColor" opacity="0.15"/>
+          <path d="M8 16H28V28C28 29.105 27.105 30 26 30H10C8.895 30 8 29.105 8 28V16Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="12" y1="20" x2="12" y2="26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="18" y1="20" x2="18" y2="26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="24" y1="20" x2="24" y2="26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <span class="logo-text">AJ <span class="logo-accent">Kitchen</span></span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" role="navigation" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#process" class="nav-link">How It Works</a></li>
+          <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contact" class="btn btn-primary header-cta">Book Catering</a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ════════════════════════════════════════════
+         1. HERO SECTION
+    ════════════════════════════════════════════ -->
+    <section class="hero" id="hero">
+      <div class="hero-bg">
+        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1920&q=80&auto=format&fit=crop"
+             alt="Fresh gourmet food platter with colorful vegetables and presentation"
+             loading="eager"
+             fetchpriority="high">
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container hero-content reveal">
+        <span class="hero-tagline">Premium Catering Services</span>
+        <h1 class="hero-title">Delicious Food<br>Memorable Events</h1>
+        <p class="hero-subtitle">From intimate gatherings to grand celebrations, we bring culinary excellence<br>to your special occasions with fresh, flavorful, and beautifully presented cuisine.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary btn-lg">Book Your Event</a>
+          <a href="#menu" class="btn btn-outline btn-lg">View Menu</a>
+        </div>
+        <div class="hero-scroll-indicator" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 5v14M19 12l-7 7-7-7"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         2. BRAND INTRODUCTION
+    ════════════════════════════════════════════ -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="split-layout reveal">
+          <div class="split-media">
+            <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=800&q=80&auto=format&fit=crop"
+                 alt="Professional chef preparing gourmet dishes in kitchen"
+                 loading="lazy"
+                 class="about-img">
+            <div class="about-accent-box">
+              <span class="accent-number">500+</span>
+              <span class="accent-label">Events<br>Catered</span>
+            </div>
+          </div>
+          <div class="split-content">
+            <span class="section-label">About AJ Kitchen</span>
+            <h2 class="section-title">Passion for Food,<br>Perfection in Service</h2>
+            <p class="section-text">At AJ Kitchen, we believe every event deserves exceptional food. Our team of experienced chefs creates culinary masterpieces using fresh, locally-sourced ingredients, bringing restaurant-quality dining to your celebrations.</p>
+            <div class="about-features">
+              <div class="about-feature">
+                <div class="feature-icon">
+                  <!-- SVG: Star/Quality -->
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Fresh Ingredients</h4>
+                  <p>We source premium, farm-fresh ingredients daily to ensure the highest quality in every dish.</p>
+                </div>
+              </div>
+              <div class="about-feature">
+                <div class="feature-icon">
+                  <!-- SVG: Chef Hat -->
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M6 13.87A4 4 0 017.41 6a5.11 5.11 0 011.05-1.54 5 5 0 017.08 0A5.11 5.11 0 0116.59 6 4 4 0 0118 13.87V21H6z"/>
+                    <line x1="6" y1="17" x2="18" y2="17"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Expert Chefs</h4>
+                  <p>Our culinary team brings years of fine-dining experience to craft memorable meals for your guests.</p>
+                </div>
+              </div>
+              <div class="about-feature">
+                <div class="feature-icon">
+                  <!-- SVG: Heart/Care -->
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Personalized Service</h4>
+                  <p>We work closely with you to customize menus and service to match your event perfectly.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         3. KITCHEN GALLERY
+    ════════════════════════════════════════════ -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Our Portfolio</span>
+          <h2 class="section-title">Kitchens We've Crafted</h2>
+          <p class="section-subtitle">Each project is a unique story of design, material, and craftsmanship brought to life.</p>
+        </div>
+
+        <div class="gallery-filter reveal" role="tablist" aria-label="Gallery filter">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="filter-btn" data-filter="modern" role="tab" aria-selected="false">Modern</button>
+          <button class="filter-btn" data-filter="island" role="tab" aria-selected="false">Island</button>
+          <button class="filter-btn" data-filter="minimal" role="tab" aria-selected="false">Minimal</button>
+          <button class="filter-btn" data-filter="luxury" role="tab" aria-selected="false">Luxury</button>
+        </div>
+
+        <div class="gallery-grid reveal">
+          <article class="gallery-card" data-category="modern">
+            <div class="gallery-card-img">
+              <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80&auto=format&fit=crop"
+                   alt="Modern kitchen with dark cabinetry and marble countertop"
+                   loading="lazy">
+              <div class="gallery-card-overlay">
+                <span class="gallery-card-category">Modern</span>
+                <h3 class="gallery-card-title">The Onyx Collection</h3>
+                <p>Dark tones, clean lines, timeless elegance.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="gallery-card gallery-card--tall" data-category="island">
+            <div class="gallery-card-img">
+              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80&auto=format&fit=crop"
+                   alt="Spacious island kitchen with wooden accents"
+                   loading="lazy">
+              <div class="gallery-card-overlay">
+                <span class="gallery-card-category">Island</span>
+                <h3 class="gallery-card-title">The Heritage Island</h3>
+                <p>Grand island layout with premium walnut finishes.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="gallery-card" data-category="minimal">
+            <div class="gallery-card-img">
+              <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80&auto=format&fit=crop"
+                   alt="Minimal all-white kitchen with handleless cabinets"
+                   loading="lazy">
+              <div class="gallery-card-overlay">
+                <span class="gallery-card-category">Minimal</span>
+                <h3 class="gallery-card-title">The Blanc Series</h3>
+                <p>Pure white, handleless perfection.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="gallery-card" data-category="luxury">
+            <div class="gallery-card-img">
+              <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=80&auto=format&fit=crop"
+                   alt="Luxury kitchen with gold hardware and premium stone"
+                   loading="lazy">
+              <div class="gallery-card-overlay">
+                <span class="gallery-card-category">Luxury</span>
+                <h3 class="gallery-card-title">The Aurum Suite</h3>
+                <p>Gold accents, Italian marble, ultimate luxury.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="gallery-card gallery-card--wide" data-category="modern">
+            <div class="gallery-card-img">
+              <img src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800&q=80&auto=format&fit=crop"
+                   alt="Open-plan modern kitchen with integrated appliances"
+                   loading="lazy">
+              <div class="gallery-card-overlay">
+                <span class="gallery-card-category">Modern</span>
+                <h3 class="gallery-card-title">The Nova Open-Plan</h3>
+                <p>Seamless living and cooking in one unified space.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="gallery-card" data-category="island">
+            <div class="gallery-card-img">
+              <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600&q=80&auto=format&fit=crop"
+                   alt="Contemporary island kitchen with pendant lighting"
+                   loading="lazy">
+              <div class="gallery-card-overlay">
+                <span class="gallery-card-category">Island</span>
+                <h3 class="gallery-card-title">The Lumière Island</h3>
+                <p>Statement lighting meets functional grandeur.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         4. SERVICES SECTION
+    ════════════════════════════════════════════ -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">What We Offer</span>
+          <h2 class="section-title">Our Services</h2>
+          <p class="section-subtitle">End-to-end kitchen solutions from concept to completion.</p>
+        </div>
+
+        <div class="services-grid reveal">
+          <article class="service-card">
+            <div class="service-icon">
+              <!-- SVG: Pen Tool / Design -->
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 19l7-7 3 3-7 7-3-3z"/>
+                <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/>
+                <path d="M2 2l7.586 7.586"/>
+                <circle cx="11" cy="11" r="2"/>
+              </svg>
+            </div>
+            <h3>Modular Kitchen Design</h3>
+            <p>Custom 3D-modeled designs tailored to your space with precision engineering and European aesthetics.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <!-- SVG: Wrench / Installation -->
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>
+              </svg>
+            </div>
+            <h3>Expert Installation</h3>
+            <p>Professional installation by certified technicians with zero-defect standards and minimal disruption to your home.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <!-- SVG: Sliders / Customization -->
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="4" y1="21" x2="4" y2="14"/>
+                <line x1="4" y1="10" x2="4" y2="3"/>
+                <line x1="12" y1="21" x2="12" y2="12"/>
+                <line x1="12" y1="8" x2="12" y2="3"/>
+                <line x1="20" y1="21" x2="20" y2="16"/>
+                <line x1="20" y1="12" x2="20" y2="3"/>
+                <line x1="1" y1="14" x2="7" y2="14"/>
+                <line x1="9" y1="8" x2="15" y2="8"/>
+                <line x1="17" y1="16" x2="23" y2="16"/>
+              </svg>
+            </div>
+            <h3>Full Customization</h3>
+            <p>Choose from hundreds of finishes, hardware options, and smart storage solutions to match your lifestyle.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <!-- SVG: Refresh / Renovation -->
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.5 2v6h-6"/>
+                <path d="M2.5 22v-6h6"/>
+                <path d="M2.5 11.5A10 10 0 0121.5 8"/>
+                <path d="M21.5 12.5A10 10 0 012.5 16"/>
+              </svg>
+            </div>
+            <h3>Kitchen Renovation</h3>
+            <p>Transform your existing kitchen with modern upgrades, re-surfacing, and smart layout optimization.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         5. PROCESS SECTION
+    ════════════════════════════════════════════ -->
+    <section class="process" id="process">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">How It Works</span>
+          <h2 class="section-title">Our 5-Step Process</h2>
+          <p class="section-subtitle">From the first conversation to your dream kitchen — transparent, seamless, and stress-free.</p>
+        </div>
+
+        <div class="process-timeline reveal">
+          <div class="process-step">
+            <div class="step-number">01</div>
+            <div class="step-content">
+              <h3>Consultation</h3>
+              <p>We listen to your vision, assess your space, and understand your lifestyle to create the perfect brief.</p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <div class="step-number">02</div>
+            <div class="step-content">
+              <h3>Design</h3>
+              <p>Our designers create detailed 3D renderings so you can see your kitchen before a single cut is made.</p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <div class="step-number">03</div>
+            <div class="step-content">
+              <h3>Material Selection</h3>
+              <p>Visit our experience center to touch, feel, and choose from our curated collection of premium materials.</p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <div class="step-number">04</div>
+            <div class="step-content">
+              <h3>Installation</h3>
+              <p>Our certified team ensures a flawless fit with precision installation and rigorous quality checks.</p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <div class="step-number">05</div>
+            <div class="step-content">
+              <h3>Handover</h3>
+              <p>Final walkthrough, usage guidance, and a complete warranty package — your dream kitchen is ready.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         6. TESTIMONIALS
+    ════════════════════════════════════════════ -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Client Stories</span>
+          <h2 class="section-title">What Our Clients Say</h2>
+        </div>
+
+        <div class="testimonials-grid reveal">
+          <article class="testimonial-card">
+            <div class="testimonial-quote" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" opacity="0.15">
+                <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
+                <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/>
+              </svg>
+            </div>
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <blockquote class="testimonial-text">
+              "AJ Kitchen transformed our outdated space into a breathtaking modern kitchen. The attention to detail is extraordinary — from the soft-close drawers to the perfectly matched stone countertops. It feels like cooking in a five-star restaurant."
+            </blockquote>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&q=80&auto=format&fit=crop"
+                   alt="Priya Sharma"
+                   loading="lazy"
+                   class="author-avatar">
+              <div>
+                <strong class="author-name">Priya Sharma</strong>
+                <span class="author-title">Bangalore</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-quote" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" opacity="0.15">
+                <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
+                <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/>
+              </svg>
+            </div>
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <blockquote class="testimonial-text">
+              "From the very first consultation, the team at AJ Kitchen understood our vision. The 3D rendering was spot-on, and the final result exceeded our expectations. The island kitchen they designed has become the centerpiece of our home."
+            </blockquote>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&q=80&auto=format&fit=crop"
+                   alt="Rahul Mehra"
+                   loading="lazy"
+                   class="author-avatar">
+              <div>
+                <strong class="author-name">Rahul Mehra</strong>
+                <span class="author-title">Mumbai</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-quote" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" opacity="0.15">
+                <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
+                <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/>
+              </svg>
+            </div>
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <blockquote class="testimonial-text">
+              "The renovation process was entirely stress-free. AJ Kitchen's team was punctual, professional, and meticulous. They even handled permits and plumbing coordination. Our guests always ask who designed our kitchen — it's that stunning."
+            </blockquote>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&q=80&auto=format&fit=crop"
+                   alt="Anita Kapoor"
+                   loading="lazy"
+                   class="author-avatar">
+              <div>
+                <strong class="author-name">Anita Kapoor</strong>
+                <span class="author-title">Delhi</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         7. CALL TO ACTION
+    ════════════════════════════════════════════ -->
+    <section class="cta">
+      <div class="cta-bg">
+        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&q=80&auto=format&fit=crop"
+             alt="Beautiful finished kitchen interior"
+             loading="lazy">
+        <div class="cta-overlay"></div>
+      </div>
+      <div class="container cta-content reveal">
+        <span class="section-label section-label--light">Ready to Begin?</span>
+        <h2 class="cta-title">Start Designing Your<br>Dream Kitchen Today</h2>
+        <p class="cta-text">Book a free consultation with our design experts and take the first step toward the kitchen you've always imagined.</p>
+        <a href="#contact" class="btn btn-primary btn-lg">Book Your Free Consultation</a>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         8. CONTACT SECTION
+    ════════════════════════════════════════════ -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Get In Touch</span>
+          <h2 class="section-title">Let's Build Something Beautiful</h2>
+        </div>
+
+        <div class="contact-grid reveal">
+          <div class="contact-info">
+            <h3>Visit Our Experience Center</h3>
+            <p>See and feel our materials, explore live kitchen setups, and discuss your project with our design consultants — all under one roof.</p>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <!-- SVG: Map Pin -->
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                    <circle cx="12" cy="10" r="3"/>
+                  </svg>
+                </div>
+                <div>
+                  <strong>Address</strong>
+                  <span>42 Design Avenue, Indiranagar<br>Bangalore, Karnataka 560038</span>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <!-- SVG: Phone -->
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                  </svg>
+                </div>
+                <div>
+                  <strong>Phone</strong>
+                  <span><a href="tel:+919876543210">+91 98765 43210</a></span>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <!-- SVG: Mail -->
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                  </svg>
+                </div>
+                <div>
+                  <strong>Email</strong>
+                  <span><a href="mailto:hello@ajkitchen.com">hello@ajkitchen.com</a></span>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <!-- SVG: WhatsApp style message -->
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/>
+                  </svg>
+                </div>
+                <div>
+                  <strong>WhatsApp</strong>
+                  <span><a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">Chat with us</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper">
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                  <label for="phone" class="form-label">Phone</label>
+                  <input type="tel" id="phone" name="phone" class="form-input" placeholder="+91 XXXXX XXXXX" required autocomplete="tel">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="you@example.com" required autocomplete="email">
+              </div>
+              <div class="form-group">
+                <label for="kitchen-type" class="form-label">Kitchen Type</label>
+                <select id="kitchen-type" name="kitchen-type" class="form-input form-select">
+                  <option value="" disabled selected>Select kitchen style</option>
+                  <option value="modular">Modular Kitchen</option>
+                  <option value="island">Island Kitchen</option>
+                  <option value="l-shaped">L-Shaped Kitchen</option>
+                  <option value="u-shaped">U-Shaped Kitchen</option>
+                  <option value="parallel">Parallel Kitchen</option>
+                  <option value="renovation">Kitchen Renovation</option>
+                  <option value="other">Other / Not Sure</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" class="form-input form-textarea" placeholder="Tell us about your dream kitchen..." rows="4"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg btn-block">
+                Send Enquiry
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                  <polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ════════════════════════════════════════════
+       9. FOOTER
+  ════════════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo footer-logo" aria-label="AJ Kitchen Home">
+            <svg class="logo-icon" width="32" height="32" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="36" height="36" rx="4" fill="currentColor" opacity="0.1"/>
+              <path d="M8 28V14L18 6L28 14V28H20V20H16V28H8Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="logo-text">AJ <span class="logo-accent">Kitchen</span></span>
+          </a>
+          <p class="footer-tagline">Crafting luxury kitchens that inspire everyday living. Designed with passion, built with precision.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5"/>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="Facebook" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="Pinterest" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8 12a4 4 0 118 0c0 2.5-1.5 5-3 6.5L12 22l-1-3.5"/>
+                <circle cx="12" cy="12" r="10"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="YouTube" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29.94 29.94 0 001 12a29.94 29.94 0 00.46 5.58 2.78 2.78 0 001.94 2C5.12 20 12 20 12 20s6.88 0 8.6-.46a2.78 2.78 0 001.94-2A29.94 29.94 0 0023 12a29.94 29.94 0 00-.46-5.58z"/>
+                <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#gallery">Our Work</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">How It Works</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Kitchen Styles</h4>
+          <ul>
+            <li><a href="#">Modular Kitchens</a></li>
+            <li><a href="#">Island Kitchens</a></li>
+            <li><a href="#">L-Shaped Kitchens</a></li>
+            <li><a href="#">U-Shaped Kitchens</a></li>
+            <li><a href="#">Parallel Kitchens</a></li>
+            <li><a href="#">Kitchen Renovation</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Experience Center</h4>
+          <ul>
+            <li>42 Design Avenue, Indiranagar</li>
+            <li>Bangalore, Karnataka 560038</li>
+            <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+            <li><a href="mailto:hello@ajkitchen.com">hello@ajkitchen.com</a></li>
+            <li>Mon – Sat: 10 AM – 7 PM</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 <strong>AJ Kitchen</strong>. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

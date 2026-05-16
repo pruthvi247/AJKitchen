@@ -1,22 +1,22 @@
-# AJ Kitchen — Premium Catering Services
+# AJ Kitchen — Luxury Modular Kitchens
 
-![Version](https://img.shields.io/badge/version-1.0-green)
+![Version](https://img.shields.io/badge/version-1.0-gold)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 
-**A premium, production-ready website for a catering service business** — built with pure HTML/CSS/JavaScript. Fresh green theme inspired by the 01-foodie sample. No frameworks, no dependencies, no build process.
+**A premium, production-ready website for luxury modular kitchen brand** — built with pure HTML/CSS/JavaScript. No frameworks, no dependencies, no build process.
 
 <br>
 
 ## ✨ Features
 
-- 🍽️ **Fresh Green & Orange Theme** — Main: `#16B978`, Secondary: `#fe5722` (vibrant, food-focused palette)
+- 🎨 **Premium Design System** — Warm neutrals, gold accents, luxury aesthetic
 - 📱 **Fully Responsive** — Mobile-first design, works flawlessly on all devices
 - ♿ **Accessible** — WCAG 2.1 AA compliant with semantic HTML and ARIA
 - ⚡ **Performance Optimized** — Lazy loading, Intersection Observer, Lighthouse > 90
 - 🎭 **Smooth Animations** — Scroll-reveal effects, hover states, transitions
-- 🖼️ **Interactive Menu Gallery** — Filterable food menu (Appetizers/Mains/Desserts/Beverages)
-- 📧 **Event Booking Form** — Built-in validation and success states
+- 🖼️ **Interactive Gallery** — Filterable kitchen portfolio with categories
+- 📧 **Contact Form** — Built-in validation and success states
 - 🌐 **SEO Ready** — Semantic markup, meta tags, proper heading hierarchy
 - 🎯 **Zero Dependencies** — Pure vanilla JavaScript, no jQuery, no frameworks
 
@@ -58,16 +58,13 @@ That's it! No `npm install`, no build process, no configuration.
 
 ```
 AJKitchen/
-├── index.html              # Main landing page (catering focused)
+├── index.html              # Main landing page
 ├── css/
-│   └── style.css          # Complete design system + fresh green theme
+│   └── style.css          # Complete design system + styles
 ├── js/
 │   └── main.js            # Interactions, animations, validation
 ├── docs/
-│   ├── PROJECT_DOCUMENTATION.md
-│   └── QUICK_START.md
-├── code-pen-samples/
-│   └── 01-foodie/         # Original inspiration sample
+│   └── PROJECT_DOCUMENTATION.md    # Full documentation
 └── README.md              # You are here
 ```
 
@@ -77,15 +74,15 @@ AJKitchen/
 
 ### Color Palette
 
-- **Primary:** `#16B978` (Fresh Green - main brand color)
-- **Secondary:** `#fe5722` (Vibrant Orange - secondary brand)
-- **Accent:** `#081B54` (Deep Navy Blue)
-- **Background:** `#FAFAFA` (Light Gray White)
+- **Primary:** `#2C2C2C` (Charcoal)
+- **Accent:** `#C9A96E` (Brushed Gold)
+- **Secondary:** `#8B7355` (Warm Bronze)
+- **Background:** `#FAFAF8` (Warm White)
 
 ### Typography
 
-- **Headings:** Playfair Display (serif, elegant)
-- **Body:** Poppins (clean, modern)
+- **Headings:** Cormorant Garamond (serif)
+- **Body:** Inter (sans-serif)
 
 ### Spacing
 
@@ -99,21 +96,21 @@ AJKitchen/
 
 ### 9 Landing Page Sections
 
-1. **Hero** — Full-screen food imagery with dual CTAs
-2. **About** — Catering business introduction with 500+ events milestone
-3. **Menu** — Filterable food gallery (Appetizers/Mains/Desserts/Beverages)
-4. **Services** — Wedding, Corporate Events, Private Parties, Special Occasions
-5. **Process** — 5-step booking process (Contact → Consultation → Customize → Confirm → Event Day)
-6. **Testimonials** — Customer reviews with 5-star ratings
+1. **Hero** — Full-screen background with dual CTAs
+2. **About** — Brand introduction with feature highlights
+3. **Gallery** — Filterable kitchen portfolio (Modern/Island/Minimal/Luxury)
+4. **Services** — Design, Installation, Customization, Renovation
+5. **Process** — 5-step timeline (Consultation → Handover)
+6. **Testimonials** — Customer reviews with ratings
 7. **CTA** — Strong conversion section
-8. **Contact** — Event booking form with date/guest count fields
+8. **Contact** — Form + contact information
 9. **Footer** — Links, social media, legal
 
 ### Interactive Features
 
 - ✅ Sticky navigation with scroll effect
 - ✅ Mobile hamburger menu
-- ✅ Menu gallery filtering with smooth animations
+- ✅ Gallery filtering with animations
 - ✅ Scroll-reveal animations (Intersection Observer)
 - ✅ Smooth anchor scrolling
 - ✅ Form validation with success states
@@ -127,7 +124,7 @@ AJKitchen/
 - **HTML5** — Semantic markup
 - **CSS3** — Custom properties, Grid, Flexbox
 - **JavaScript (ES6+)** — Vanilla, no frameworks
-- **SVG** — Inline icons (chef hat, food items)
+- **SVG** — Inline icons (no icon fonts)
 
 **Zero external dependencies** — Works offline after first load.
 
@@ -212,18 +209,18 @@ Edit CSS custom properties in `css/style.css`:
 
 ```css
 :root {
-  --color-accent: #16b978; /* Fresh Green - change to your brand color */
-  --color-primary: #081b54; /* Deep Navy */
+  --color-accent: #c9a96e; /* Change to your brand color */
+  --color-primary: #2c2c2c;
   /* ... */
 }
 ```
 
-### Add Menu Items
+### Add Section
 
-1. Add HTML to `index.html` in the menu gallery section
-2. Use existing `.gallery-card` structure
-3. Set `data-category` to filter category
-4. Add `.reveal` class for scroll animations
+1. Add HTML to `index.html`
+2. Add styles to `css/style.css`
+3. Add `.reveal` class for scroll animations
+4. Update navigation links
 
 <br>
 
@@ -239,8 +236,6 @@ Includes:
 - Accessibility compliance details
 - Performance optimization tips
 - Future enhancement roadmap
-
-**Quick start guide:** [docs/QUICK_START.md](docs/QUICK_START.md)
 
 <br>
 
@@ -264,16 +259,15 @@ This project is licensed under the MIT License.
 
 ## 🙏 Credits
 
-- **Design Inspiration:** 01-foodie CodePen sample (green theme, hero layout)
-- **Fonts:** Playfair Display (classy serif), Poppins by Indian Type Foundry
+- **Fonts:** Cormorant Garamond by Christian Thalmann, Inter by Rasmus Andersson
 - **Images:** Unsplash (placeholder — replace with licensed photography)
-- **Icons:** Custom inline SVG (chef hat, food items)
+- **Icons:** Custom inline SVG
 
 <br>
 
 ## 📧 Contact
 
-**Project:** AJ Kitchen Catering Website  
+**Project Maintainer:** AJ Kitchen Development Team  
 **Documentation Version:** 1.0  
 **Last Updated:** 16 May 2026
 
