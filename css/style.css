@@ -473,6 +473,43 @@ ul, ol {
   margin-bottom: var(--space-lg);
 }
 
+.hero-rotating-wrapper {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  vertical-align: bottom;
+  height: 1.18em;
+}
+
+.hero-rotating-text {
+  display: inline-block;
+  position: relative;
+  color: var(--color-secondary);
+  animation: heroRotateIn 0.5s ease forwards;
+}
+
+@keyframes heroRotateIn {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes heroRotateOut {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+
 .hero-text .hero-subtitle {
   font-size: var(--text-base);
   color: var(--color-text);

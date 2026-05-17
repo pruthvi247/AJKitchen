@@ -274,4 +274,25 @@
 
   initBackToTop();
 
+  /* ── Hero Rotating Text ── */
+  function initHeroRotatingText() {
+    const el = document.getElementById('hero-rotating');
+    if (!el) return;
+
+    const words = ['Every Event!', 'Corporate!', 'Subscription!'];
+    let index = 0;
+
+    setInterval(() => {
+      el.style.animation = 'heroRotateOut 0.4s ease forwards';
+
+      setTimeout(() => {
+        index = (index + 1) % words.length;
+        el.textContent = words[index];
+        el.style.animation = 'heroRotateIn 0.4s ease forwards';
+      }, 400);
+    }, 2500);
+  }
+
+  initHeroRotatingText();
+
 })();
