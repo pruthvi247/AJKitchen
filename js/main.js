@@ -12,6 +12,51 @@
   // Add .js-enabled to enable scroll animations
   document.documentElement.classList.add('js-enabled');
 
+  // ─── BRAND CONSTANTS ───────────────────────────────────────
+  const BRAND = {
+    NAME:           'AJ Caterer',
+    TAGLINE:        'Always choose good',
+    COPYRIGHT_YEAR: '2026',
+  };
+
+  // ─── CONTACT CONSTANTS ─────────────────────────────────────
+  const CONTACT = {
+    ADDRESS_LINE1:      'Sy No: 58, Sadaramangala, Hoodi',
+    ADDRESS_LINE2:      'Bangalore \u2013 560067',
+    PHONE_PRIMARY:      { tel: '+918073427315',  display: '+91 80734 27315' },
+    PHONE_SECONDARY:    { tel: '+919731709138',  display: '97317 09138'     },
+    EMAIL_GENERAL:      'ajcaterer04@gmail.com',
+    EMAIL_CORPORATE:    'joseph.c@ajcaterers.org',
+    HOURS:              'Mon \u2013 Sat: 9 AM \u2013 6 PM',
+    WHATSAPP_CHAT_URL:  'https://wa.me/918073427315?text=Hi%20AJ%20Kitchen!%20I\'m%20interested%20in%20learning%20more%20about%20your%20premium%20catering%20services.%20Could%20you%20please%20share%20more%20details?',
+    WHATSAPP_QUOTE_URL: 'https://wa.me/918073427315?text=Hi%20AJ%20Kitchen!%20I\'d%20like%20to%20get%20a%20quote%20for%20catering%20services.%20Here%20are%20the%20details:%0A%0AEvent%20Type:%20%0ANumber%20of%20Guests:%20%0AEvent%20Date:%20%0APreferred%20Cuisine:%20%0A%0ALooking%20forward%20to%20hearing%20from%20you!',
+  };
+
+  // ─── POPULATE BRAND & CONTACT DATA ─────────────────────────
+  document.querySelectorAll('.logo-tagline').forEach(el => {
+    el.textContent = BRAND.TAGLINE;
+  });
+
+  const contactHandlers = {
+    'address-line1':    el => { el.textContent = CONTACT.ADDRESS_LINE1; },
+    'address-line2':    el => { el.textContent = CONTACT.ADDRESS_LINE2; },
+    'address-full':     el => { el.innerHTML   = `${CONTACT.ADDRESS_LINE1}<br>${CONTACT.ADDRESS_LINE2}`; },
+    'phone-primary':    el => { el.textContent = CONTACT.PHONE_PRIMARY.display;   el.href = `tel:${CONTACT.PHONE_PRIMARY.tel}`;   },
+    'phone-secondary':  el => { el.textContent = CONTACT.PHONE_SECONDARY.display; el.href = `tel:${CONTACT.PHONE_SECONDARY.tel}`; },
+    'email-general':    el => { el.textContent = CONTACT.EMAIL_GENERAL;   el.href = `mailto:${CONTACT.EMAIL_GENERAL}`;   },
+    'email-corporate':  el => { el.textContent = CONTACT.EMAIL_CORPORATE; el.href = `mailto:${CONTACT.EMAIL_CORPORATE}`; },
+    'hours':            el => { el.textContent = CONTACT.HOURS; },
+    'whatsapp-chat':    el => { el.href = CONTACT.WHATSAPP_CHAT_URL;  },
+    'whatsapp-quote':   el => { el.href = CONTACT.WHATSAPP_QUOTE_URL; },
+    'brand-name':       el => { el.textContent = BRAND.NAME; },
+    'copyright-year':   el => { el.textContent = BRAND.COPYRIGHT_YEAR; },
+  };
+
+  document.querySelectorAll('[data-contact]').forEach(el => {
+    const key = el.dataset.contact;
+    if (contactHandlers[key]) contactHandlers[key](el);
+  });
+
   // ─── DOM REFERENCES ────────────────────────────────────────
   const header      = document.getElementById('site-header');
   const menuToggle  = document.getElementById('menu-toggle');
@@ -273,5 +318,26 @@
   }
 
   initBackToTop();
+
+  /* ── Hero Rotating Text ── */
+  function initHeroRotatingText() {
+    const el = document.getElementById('hero-rotating');
+    if (!el) return;
+
+    const words = ['Every Event!', 'Corporate!', 'Subscription!'];
+    let index = 0;
+
+    setInterval(() => {
+      el.style.animation = 'heroRotateOut 0.4s ease forwards';
+
+      setTimeout(() => {
+        index = (index + 1) % words.length;
+        el.textContent = words[index];
+        el.style.animation = 'heroRotateIn 0.4s ease forwards';
+      }, 400);
+    }, 2500);
+  }
+
+  initHeroRotatingText();
 
 })();
